@@ -1,0 +1,29 @@
+diff --git a/KF5GlobalAccelConfig.cmake.in b/KF5GlobalAccelConfig.cmake.in
+index 5f069d3..e59f601 100644
+--- a/KF5GlobalAccelConfig.cmake.in
++++ b/KF5GlobalAccelConfig.cmake.in
+@@ -1,7 +1,5 @@
+ @PACKAGE_INIT@
+ 
+-set(KGLOBALACCEL_DBUS_INTERFACES_DIR "${PACKAGE_PREFIX_DIR}/@DBUS_INTERFACES_INSTALL_DIR@")
+-
+ find_dependency(Qt5DBus @REQUIRED_QT_VERSION@)
+ find_dependency(Qt5Widgets @REQUIRED_QT_VERSION@)
+ 
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index d48e92e..938c15d 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -9,12 +9,10 @@ set(kglobalaccel_SRCS
+ set(kglobalaccel_xml ${CMAKE_CURRENT_SOURCE_DIR}/org.kde.KGlobalAccel.xml)
+ set_source_files_properties(${kglobalaccel_xml} PROPERTIES INCLUDE "kglobalshortcutinfo_p.h")
+ qt5_add_dbus_interface(kglobalaccel_SRCS ${kglobalaccel_xml} kglobalaccel_interface )
+-install(FILES ${kglobalaccel_xml} DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
+ 
+ set(kglobalaccel_component_xml ${CMAKE_CURRENT_SOURCE_DIR}/org.kde.kglobalaccel.Component.xml)
+ set_source_files_properties(${kglobalaccel_component_xml} PROPERTIES INCLUDE "kglobalshortcutinfo_p.h")
+ qt5_add_dbus_interface(kglobalaccel_SRCS ${kglobalaccel_component_xml} kglobalaccel_component_interface )
+-install(FILES ${kglobalaccel_component_xml} DESTINATION ${DBUS_INTERFACES_INSTALL_DIR})
+ 
+ add_library(KF5GlobalAccel ${kglobalaccel_SRCS})
+ generate_export_header(KF5GlobalAccel BASE_NAME KGlobalAccel)
