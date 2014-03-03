@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5GlobalAccel.so.4 libkf5globalaccel4 #MINVER#
+libKF5GlobalAccel.so.5 libkf5globalaccel5 #MINVER#
  _ZN12KGlobalAccel10setEnabledEb@Base 4.96.0
  _ZN12KGlobalAccel11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN12KGlobalAccel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
