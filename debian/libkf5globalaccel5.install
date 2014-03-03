@@ -1,2 +1,2 @@
 usr/lib/*/libKF5GlobalAccel.so.4*
-usr/share/dbus-1/interfaces/*
+usr/share/dbus-1/interfaces/*usr/lib/*/libKF5GlobalAccel.so.5
