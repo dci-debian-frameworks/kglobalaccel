@@ -3,21 +3,29 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Riddell <jriddell@ubuntu.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev, xvfb, xauth, libqt5x11extras5-dev,
- qttools5-dev, qttools5-dev-tools, qt5-default
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.13),
+               libqt5x11extras5-dev,
+               pkg-kde-tools,
+               qt5-default,
+               qtbase5-dev,
+               qttools5-dev,
+               qttools5-dev-tools,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
-Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel    
+Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
 
 Package: libkf5globalaccel-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kglobalaccel    
- KGlobalAccel allows you to have global accelerators that are 
- independent of the focused window. Unlike regular shortcuts, 
- the application's window does not need focus for them to be 
- activated. 
+Description: development files for kglobalaccel
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
  .
  Contains development files for kglobalaccel.
 
@@ -25,22 +33,22 @@ Package: libkf5globalaccel5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Configurable global shortcut support. 
- KGlobalAccel allows you to have global accelerators that are 
- independent of the focused window. Unlike regular shortcuts, 
- the application's window does not need focus for them to be 
- activated. 
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Configurable global shortcut support.
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
 
 Package: libkf5globalaccel5-data
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Configurable global shortcut support. 
- KGlobalAccel allows you to have global accelerators that are 
- independent of the focused window. Unlike regular shortcuts, 
- the application's window does not need focus for them to be 
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Configurable global shortcut support.
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
  activated.
  .
  This package contains the translations.
@@ -51,10 +59,10 @@ Section: debug
 Architecture: any
 Multi-Arch: same
 Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kglobalaccel    
- KGlobalAccel allows you to have global accelerators that are 
- independent of the focused window. Unlike regular shortcuts, 
- the application's window does not need focus for them to be 
- activated. 
+Description: debug symbols for kglobalaccel
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
   .
  Contains debug symbols for kglobalaccel       .
