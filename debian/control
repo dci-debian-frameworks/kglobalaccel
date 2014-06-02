@@ -20,7 +20,8 @@ Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
 Package: libkf5globalaccel-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: development files for kglobalaccel
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
