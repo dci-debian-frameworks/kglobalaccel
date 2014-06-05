@@ -5,11 +5,12 @@ kglobalaccel (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
 
   [ Harald Sitter ]
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Rename libkf5globalaccel5-data to libkf5globalaccel-data
+    + Breaks+Replaces previous package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:38:54 +0100
 

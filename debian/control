@@ -32,7 +32,7 @@ Description: development files for kglobalaccel
 Package: libkf5globalaccel5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5globalaccel5-data (= ${source:Version}),
+Depends: libkf5globalaccel-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Configurable global shortcut support.
@@ -41,10 +41,12 @@ Description: Configurable global shortcut support.
  the application's window does not need focus for them to be
  activated.
 
-Package: libkf5globalaccel5-data
+Package: libkf5globalaccel-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5globalaccel5-data
+Replaces: libkf5globalaccel5-data
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
