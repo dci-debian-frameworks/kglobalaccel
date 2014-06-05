@@ -32,7 +32,6 @@ Description: development files for kglobalaccel
 Package: libkf5globalaccel5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5globalaccel5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -45,7 +44,6 @@ Description: Configurable global shortcut support.
 Package: libkf5globalaccel5-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
