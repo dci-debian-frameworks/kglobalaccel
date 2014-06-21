@@ -2,3 +2,4 @@ usr/include/KF5/
 usr/lib/*/cmake/KF5GlobalAccel/
 usr/lib/*/libKF5GlobalAccel.so
 usr/lib/*/qt5/mkspecs/modules/*
+usr/share/dbus-1/interfaces/*

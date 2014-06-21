@@ -12,6 +12,10 @@ kglobalaccel (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename libkf5globalaccel5-data to libkf5globalaccel-data
     + Breaks+Replaces previous package
 
+  [ José Manuel Santamaría Lema ]
+  * Move usr/share/dbus-1/interfaces/* from libkf5globalaccel5 to
+    libkf5globalaccel-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:38:54 +0100
 
 kglobalaccel (4.99.0-0ubuntu1) trusty; urgency=medium
