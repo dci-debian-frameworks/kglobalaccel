@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5GlobalAccel.so.5 libkf5globalaccel5 #MINVER#
  _ZN12KGlobalAccel10setEnabledEb@Base 4.96.0
  _ZN12KGlobalAccel11eventFilterEP7QObjectP6QEvent@Base 4.96.0
@@ -10,6 +10,8 @@ libKF5GlobalAccel.so.5 libkf5globalaccel5 #MINVER#
  _ZN12KGlobalAccel16staticMetaObjectE@Base 4.96.0
  _ZN12KGlobalAccel17allMainComponentsEv@Base 4.96.0
  _ZN12KGlobalAccel17isComponentActiveERK7QString@Base 4.96.0
+ _ZN12KGlobalAccel17setGlobalShortcutEP7QActionRK12QKeySequence@Base 5.0.0
+ _ZN12KGlobalAccel17setGlobalShortcutEP7QActionRK5QListI12QKeySequenceE@Base 5.0.0
  _ZN12KGlobalAccel18removeAllShortcutsEP7QAction@Base 4.96.0
  _ZN12KGlobalAccel18setDefaultShortcutEP7QActionRK5QListI12QKeySequenceENS_21GlobalShortcutLoadingE@Base 4.96.0
  _ZN12KGlobalAccel21globalShortcutChangedEP7QActionRK12QKeySequence@Base 4.96.0
