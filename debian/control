@@ -6,7 +6,14 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.6.0),
+               libkf5config-dev (>= 5.6.0),
+               libkf5coreaddons-dev (>= 5.6.0),
+               libkf5crash-dev (>= 5.6.0),
+               libkf5dbusaddons-dev (>= 5.6.0),
+               libkf5i18n-dev (>= 5.6.0),
+               libkf5windowsystem-dev (>= 5.6.0),
                libqt5x11extras5-dev,
+               libxcb-keysyms1-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev,
                qttools5-dev,
@@ -38,11 +45,27 @@ Multi-Arch: same
 Depends: libkf5globalaccel-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5globalaccel-bin (= ${binary:Version})
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
  the application's window does not need focus for them to be
  activated.
+
+Package: libkf5globalaccel-bin
+Architecture: any
+Depends: libkf5globalaccel-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: plasma-workspace (<< 4:5.1.2+git20150107~)
+Replaces: plasma-workspace (<< 4:5.1.2+git20150107~)
+Description: Configurable global shortcut support.
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
+ .
+ This package contains binaries.
 
 Package: libkf5globalaccel-data
 Architecture: all
@@ -56,7 +79,7 @@ Description: Configurable global shortcut support.
  the application's window does not need focus for them to be
  activated.
  .
- This package contains the translations.
+ This package contains data files.
 
 Package: libkf5globalaccel5-dbg
 Priority: extra
