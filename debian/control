@@ -72,8 +72,8 @@ Package: libkf5globalaccel-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5globalaccel5-data
-Replaces: libkf5globalaccel5-data
+Breaks: libkf5globalaccel5-data, plasma-workspace (<< 4:5.1.2+git20150107~)
+Replaces: libkf5globalaccel5-data, plasma-workspace (<< 4:5.1.2+git20150107~)
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
