@@ -41,7 +41,6 @@ Multi-Arch: same
 Depends: libkf5globalaccel-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libkf5globalaccel-bin (= ${binary:Version})
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
