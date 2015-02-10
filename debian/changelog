@@ -1,6 +1,9 @@
 kglobalaccel (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * New package libkf5globalaccel-bin housing the helper daemon
+  * libkf5globalaccel-bin Breaks and Replaces older versions of
+    plasma-workspace which previously contained the helper
 
  -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 09:52:53 +0100
 
