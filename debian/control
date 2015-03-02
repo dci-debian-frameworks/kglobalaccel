@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 1.6.0),
+               extra-cmake-modules (>= 1.7.0),
                libqt5x11extras5-dev,
                libxcb-keysyms1-dev,
                pkg-config,
@@ -47,12 +47,27 @@ Description: Configurable global shortcut support.
  the application's window does not need focus for them to be
  activated.
 
+Package: libkf5globalaccel-bin
+Architecture: any
+Depends: libkf5globalaccel-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: plasma-workspace (<< 4:5.2.0-0ubuntu2~)
+Replaces: plasma-workspace (<< 4:5.2.0-0ubuntu2~)
+Description: Configurable global shortcut support.
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
+ .
+ This package contains binaries.
+
 Package: libkf5globalaccel-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5globalaccel5-data, plasma-workspace (<< 4:5.1.2+git20150107~)
-Replaces: libkf5globalaccel5-data, plasma-workspace (<< 4:5.1.2+git20150107~)
+Breaks: libkf5globalaccel5-data, plasma-workspace (<< 4:5.2.0-0ubuntu2~)
+Replaces: libkf5globalaccel5-data, plasma-workspace (<< 4:5.2.0-0ubuntu2~)
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
