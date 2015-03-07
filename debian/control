@@ -11,9 +11,6 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5crash-dev (>= 5.7.0),
                libkf5dbusaddons-dev (>= 5.7.0~),
                libkf5i18n-dev (>= 5.7.0),
-               libkf5windowsystem-dev (>= 5.7.0)
-               libkf5dbusaddons-dev (>= 5.7.0)
-               libqt5x11extras5-dev,
                libkf5windowsystem-dev (>= 5.7.0~),
                libqt5x11extras5-dev (>= 5.2.0~),
                libx11-dev,
