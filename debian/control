@@ -63,8 +63,8 @@ Architecture: any
 Depends: libkf5globalaccel-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-workspace (<< 4:5.2.0-0ubuntu2~)
-Replaces: plasma-workspace (<< 4:5.2.0-0ubuntu2~)
+Breaks: plasma-workspace (<= 4:5.2.0-1)
+Replaces: plasma-workspace (<= 4:5.2.0-1)
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
