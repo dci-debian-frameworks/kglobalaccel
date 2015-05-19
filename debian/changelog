@@ -1,14 +1,42 @@
+kglobalaccel (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:22:48 +0200
+
+kglobalaccel (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:08 +0200
+
 kglobalaccel (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:29:10 +0200
 
+kglobalaccel (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:51 +0100
+
 kglobalaccel (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:39:08 +0100
+
+kglobalaccel (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+  * Update build dependencies.
+  * Add new libkf5globalaccel-bin package.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:47 +0100
 
 kglobalaccel (5.7.0-0ubuntu1) vivid; urgency=medium
 
@@ -19,6 +47,19 @@ kglobalaccel (5.7.0-0ubuntu1) vivid; urgency=medium
     -data which contains the dbus service file
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:34:33 +0100
+
+kglobalaccel (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update install files.
+  * Update watch file.
+  * Add basic autopkgtests support.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 10:31:36 +0100
 
 kglobalaccel (5.6.0-0ubuntu1) vivid; urgency=medium
 
