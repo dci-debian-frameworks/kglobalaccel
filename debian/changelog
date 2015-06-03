@@ -1,4 +1,4 @@
-kglobalaccel (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
+kglobalaccel (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
@@ -12,7 +12,7 @@ kglobalaccel (5.10.0-0ubuntu1) UNRELEASED; urgency=medium
   * Force rebuild. Launchpad was down. 
   * Fix another install file. 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 27 May 2015 17:09:20 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:44:35 +0200
 
 kglobalaccel (5.9.0-1) experimental; urgency=medium
 
