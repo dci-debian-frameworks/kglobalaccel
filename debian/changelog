@@ -1,8 +1,12 @@
-kglobalaccel (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
+kglobalaccel (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Build-dep on libxcb-xtest0-dev
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Jun 2015 07:11:29 +0200
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:08:17 -0700
 
 kglobalaccel (5.10.0-0ubuntu1) wily; urgency=medium
 
