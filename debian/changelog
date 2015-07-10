@@ -1,12 +1,26 @@
 kglobalaccel (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
+  * New upstream release
+  * Fix merge, remove unused broken backport.
+  
   [ Jonathan Riddell ]
   * Build-dep on libxcb-xtest0-dev
 
-  [ Scarlett Clark ]
-  * New upstream release
-
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:08:17 -0700
+
+kglobalaccel (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files.
+  * New upstream release (5.11.0).
+
+  [ Jonathan Riddell ]
+  * Build-dep on libxcb-xtest0-dev.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 14:29:56 +0200
 
 kglobalaccel (5.10.0-0ubuntu1) wily; urgency=medium
 
@@ -18,9 +32,9 @@ kglobalaccel (5.10.0-0ubuntu1) wily; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Fix install file. 
-  * Force rebuild. Launchpad was down. 
-  * Fix another install file. 
+  * Fix install file.
+  * Force rebuild. Launchpad was down.
+  * Fix another install file.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:44:35 +0200
 
@@ -118,7 +132,7 @@ kglobalaccel (5.2.0-0ubuntu1) utopic; urgency=medium
 kglobalaccel (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
