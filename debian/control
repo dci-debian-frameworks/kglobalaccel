@@ -70,7 +70,7 @@ Description: Configurable global shortcut support - private runtime library
  the application's window does not need focus for them to be
  activated.
  .
- This library is considered private and must not be used by by users of
+ This library is considered private and must not be used by users of
  KGlobalAccel.
 
 Package: libkf5globalaccel-bin
