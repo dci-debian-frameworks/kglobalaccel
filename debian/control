@@ -37,10 +37,8 @@ Depends: libkf5globalaccel5 (= ${binary:Version}),
          libkf5globalaccelprivate5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
-Breaks: libkf5globalaccel-bin (<= 5.12.0-0ubuntu2),
-        libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
-Replaces: libkf5globalaccel-bin (<= 5.12.0-0ubuntu2),
-          libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Breaks: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: development files for kglobalaccel
  KGlobalAccel allows you to have global accelerators that are
  independent of the focused window. Unlike regular shortcuts,
