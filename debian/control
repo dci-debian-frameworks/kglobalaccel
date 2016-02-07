@@ -100,17 +100,3 @@ Description: Configurable global shortcut support.
  activated.
  .
  This package contains data files.
-
-Package: libkf5globalaccel5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kglobalaccel
- KGlobalAccel allows you to have global accelerators that are
- independent of the focused window. Unlike regular shortcuts,
- the application's window does not need focus for them to be
- activated.
-  .
- Contains debug symbols for kglobalaccel.
