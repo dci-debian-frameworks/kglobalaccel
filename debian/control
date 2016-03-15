@@ -27,7 +27,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kglobalaccel.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/kglobalaccel.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kglobalaccel.git
 
 Package: libkf5globalaccel-dev
 Section: libdevel
