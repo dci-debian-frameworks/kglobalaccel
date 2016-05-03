@@ -5,13 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               libkf5config-dev (>= 5.18.0~),
-               libkf5coreaddons-dev (>= 5.18.0~),
-               libkf5crash-dev (>= 5.18.0~),
-               libkf5dbusaddons-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5coreaddons-dev (>= 5.19.0~),
+               libkf5crash-dev (>= 5.19.0~),
+               libkf5dbusaddons-dev (>= 5.19.0~),
                libkf5i18n-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
+               libkf5windowsystem-dev (>= 5.19.0~),
                libqt5x11extras5-dev (>= 5.4),
                libx11-dev,
                libxcb-keysyms1-dev,
@@ -26,8 +26,8 @@ Build-Depends: cmake (>= 2.8.12),
                xvfb
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kglobalaccel.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kglobalaccel.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kglobalaccel.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kglobalaccel.git
 
 Package: libkf5globalaccel-dev
 Section: libdevel
@@ -100,17 +100,3 @@ Description: Configurable global shortcut support.
  activated.
  .
  This package contains data files.
-
-Package: libkf5globalaccel5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5globalaccel5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kglobalaccel
- KGlobalAccel allows you to have global accelerators that are
- independent of the focused window. Unlike regular shortcuts,
- the application's window does not need focus for them to be
- activated.
-  .
- Contains debug symbols for kglobalaccel.
