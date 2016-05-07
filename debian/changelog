@@ -1,6 +1,6 @@
-kglobalaccel (5.21.0-1~1.gbp9bf07c) UNRELEASED; urgency=medium
+kglobalaccel (5.21.0-1~2.gbp77328a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9bf07c642786a54ba766d38e9f2d13986c9af81c **
+  ** SNAPSHOT build @77328ac1d203ac6c29b9751f3c323fa68c44734e **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,7 @@ kglobalaccel (5.21.0-1~1.gbp9bf07c) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -21,7 +22,7 @@ kglobalaccel (5.21.0-1~1.gbp9bf07c) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:02:18 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 07 May 2016 12:54:51 +0200
 
 kglobalaccel (5.19.0-1) experimental; urgency=medium
 
