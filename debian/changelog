@@ -1,3 +1,11 @@
+kglobalaccel (5.22.0-1~1.gbpdb8cc7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @db8cc7a7ff4587ac6e48d12460450b9b74822f70 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 15:02:18 +0200
+
 kglobalaccel (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
