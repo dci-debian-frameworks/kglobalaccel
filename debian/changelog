@@ -1,3 +1,11 @@
+kglobalaccel (5.24.0-1~1.gbpe4726c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e4726c7d86d1042cbfde6244b94d98d3333f8e9b **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 15:02:20 +0200
+
 kglobalaccel (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
