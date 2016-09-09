@@ -1,10 +1,9 @@
-kglobalaccel (5.25.0-2~1.gbp4f1651) UNRELEASED; urgency=medium
+kglobalaccel (5.25.0-2) unstable; urgency=medium
 
-  ** SNAPSHOT build @4f165108b45320870965b144c2e2951b491b9f00 **
+  * Move auto_tests to autopkgtest. (Closes: #836834) Thanks to Andreas
+    Beckmann for reporting.
 
-  * Move auto_tests to autopkgtest
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 09 Sep 2016 15:07:42 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Sep 2016 16:12:35 +0200
 
 kglobalaccel (5.25.0-1) unstable; urgency=medium
 
