@@ -5,14 +5,14 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.25.0~),
-               libkf5config-dev (>= 5.25.0~),
-               libkf5coreaddons-dev (>= 5.25.0~),
-               libkf5crash-dev (>= 5.25.0~),
-               libkf5dbusaddons-dev (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
+               libkf5config-dev (>= 5.26.0~),
+               libkf5coreaddons-dev (>= 5.26.0~),
+               libkf5crash-dev (>= 5.26.0~),
+               libkf5dbusaddons-dev (>= 5.26.0~),
                libkf5i18n-dev (>= 5.18.0~),
-               libkf5service-dev (>= 5.25.0~),
-               libkf5windowsystem-dev (>= 5.25.0~),
+               libkf5service-dev (>= 5.26.0~),
+               libkf5windowsystem-dev (>= 5.26.0~),
                libqt5x11extras5-dev (>= 5.5.0~),
                libx11-dev,
                libxcb-keysyms1-dev,
@@ -22,9 +22,7 @@ Build-Depends: cmake (>= 2.8.12),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~),
                qttools5-dev (>= 5.4),
-               qttools5-dev-tools (>= 5.4),
-               xauth,
-               xvfb
+               qttools5-dev-tools (>= 5.4)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kglobalaccel.git
@@ -38,8 +36,8 @@ Depends: libkf5globalaccel5 (= ${binary:Version}),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
 Breaks: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3),
-        libkf5khtml-dev (<< 5.25),
-        libkf5xmlgui-dev (<< 5.25)
+        libkf5khtml-dev (<< 5.26),
+        libkf5xmlgui-dev (<< 5.26)
 Replaces: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
 Description: development files for kglobalaccel
  KGlobalAccel allows you to have global accelerators that are
@@ -61,11 +59,11 @@ Description: Configurable global shortcut support.
  independent of the focused window. Unlike regular shortcuts,
  the application's window does not need focus for them to be
  activated.
-Breaks: libkf5kdelibs4support5 (<< 5.25),
-        libkf5khtml5 (<< 5.25),
-        libkf5plasma5 (<< 5.25),
-        libkf5xmlgui5 (<< 5.25),
-        qml-module-org-kde-kquickcontrols (<< 5.25)
+Breaks: libkf5kdelibs4support5 (<< 5.26),
+        libkf5khtml5 (<< 5.26),
+        libkf5plasma5 (<< 5.26),
+        libkf5xmlgui5 (<< 5.26),
+        qml-module-org-kde-kquickcontrols (<< 5.26)
 
 Package: libkf5globalaccelprivate5
 Architecture: any
