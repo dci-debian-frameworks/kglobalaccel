@@ -1,5 +1,0 @@
-# Private library symlink
-# https://git.reviewboard.kde.org/r/124611/
-./usr/lib/*/libKF5GlobalAccelPrivate.so
-./usr/lib/i386-linux-gnu/libKF5GlobalAccelPrivate.so
-./usr/lib/x86_64-linux-gnu/libKF5GlobalAccelPrivate.so
