@@ -1,10 +1,13 @@
-kglobalaccel (5.27.0-1~1.gbpc2befb) UNRELEASED; urgency=medium
+kglobalaccel (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @c2befb69fe44a368f80712c6a723ad2934c25531 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 15:02:50 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:03:03 +0200
 
 kglobalaccel (5.26.0-1) unstable; urgency=medium
 
