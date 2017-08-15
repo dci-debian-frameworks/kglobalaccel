@@ -91,6 +91,7 @@ Description: Configurable global shortcut support (documentation)
  activated.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5globalaccel5
 Architecture: any
