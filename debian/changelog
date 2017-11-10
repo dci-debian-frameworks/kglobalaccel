@@ -1,3 +1,9 @@
+kglobalaccel (5.40.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 10 Nov 2017 12:57:43 +0000
+
 kglobalaccel (5.39.0-0neon) xenial; urgency=medium
 
   * New release
