@@ -1,3 +1,9 @@
+kglobalaccel (5.41.0-1~) UNRELEASED; urgency=medium
+
+  * New revision
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 13 Dec 2017 13:59:58 -0300
+
 kglobalaccel (5.41.0-0neon) xenial; urgency=medium
 
   * New release
