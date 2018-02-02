@@ -68,8 +68,8 @@ Depends: libkf5globalaccel5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
 Breaks: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3),
-        libkf5khtml-dev (<< 5.41),
-        libkf5xmlgui-dev (<< 5.41),
+        libkf5khtml-dev (<< 5.42),
+        libkf5xmlgui-dev (<< 5.42),
 Replaces: libkf5globalaccel5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
 Recommends: libkf5globalaccel-doc (= ${source:Version})
 Description: development files for kglobalaccel
@@ -105,11 +105,11 @@ Description: Configurable global shortcut support.
  independent of the focused window. Unlike regular shortcuts,
  the application's window does not need focus for them to be
  activated.
-Breaks: libkf5kdelibs4support5 (<< 5.41),
-        libkf5khtml5 (<< 5.41),
-        libkf5plasma5 (<< 5.41),
-        libkf5xmlgui5 (<< 5.41),
-        qml-module-org-kde-kquickcontrols (<< 5.41),
+Breaks: libkf5kdelibs4support5 (<< 5.42),
+        libkf5khtml5 (<< 5.42),
+        libkf5plasma5 (<< 5.42),
+        libkf5xmlgui5 (<< 5.42),
+        qml-module-org-kde-kquickcontrols (<< 5.42),
 
 Package: libkf5globalaccelprivate5
 Architecture: any
